@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  color-scheme: light;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.scroll-bar::-webkit-scrollbar {
+  background-color: transparent;
+  width: 1.25rem;
+  opacity: 0;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+  background-color: #979797;
+  border-radius: 1rem;
+  border: 8px solid black;
+}
